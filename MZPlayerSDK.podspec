@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.authors      = "Mengzhu"
   s.name         = "MZPlayerSDK"
-  s.version      = "1.0.1"
+  s.version      = "2.1.0"
   s.summary      = "MZPlayerSDK iOS SDK"
   s.description  = "Provide MZPlayerSDK Server To Play Video Or Live"
   s.homepage     = "http://www.zmengzhu.com"
@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.vendored_frameworks = 'MZPlayerSDK/MZPlayerSDK.framework'
   s.resource="MZPlayerSDK/MZPlayerSDK.bundle"
-  s.dependency 'MZCoreSDKLibrary'
+  s.dependency 'MZCoreSDKLibrary', '~> 2.1.0'
   end
