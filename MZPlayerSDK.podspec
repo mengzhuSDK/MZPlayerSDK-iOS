@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.authors      = "Mengzhu"
   s.name         = "MZPlayerSDK"
-  s.version      = "2.2.4"
+  s.version      = "2.2.5"
   s.summary      = "MZPlayerSDK iOS SDK"
   s.description  = "Provide MZPlayerSDK Server To Play Video Or Live"
   s.homepage     = "http://www.zmengzhu.com"

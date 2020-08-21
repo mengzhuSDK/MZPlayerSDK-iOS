@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "MZSlider.h"
-#import <MZCoreSDKLibrary/MZCoreSDKLibrary.h>
 
 @interface MZMovieBottonBarView : UIView
 
@@ -18,7 +17,7 @@
 @property (nonatomic ,strong)MZSlider *durationSlider;
 @property (nonatomic ,strong)UIButton *fullscreenBtn;
 @property (nonatomic ,strong)UILabel    *division;
-@property (nonatomic ,strong)MZAnimationView   *voiceAnimationView;
+@property (nonatomic ,strong)id  voiceAnimationView;//MZAnimationView *
 
 
 
