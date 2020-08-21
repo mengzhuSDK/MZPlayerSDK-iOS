@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MZBarrageManager : NSObject
 
+@property (nonatomic, strong) NSBundle *privateBundle;
+
 /**
  * @brief 打开展示弹幕功能
  *

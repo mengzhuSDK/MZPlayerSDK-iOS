@@ -104,12 +104,12 @@ typedef NS_ENUM(NSInteger, MZMPMovieScalingMode) {
 @property (nonatomic, readonly) MZMPMoviePlaybackState playbackState;
 @property (nonatomic, readonly) MZMPMovieLoadState loadState;
 
-///初始化
-- (instancetype)initWithContentURL:(NSURL *)aUrl movieModel:(MZMPMovieScalingMode)movieModel frame:(CGRect)frame;//默认回放
-- (instancetype)initWithContentURLString:(NSString *)aUrlString movieModel:(MZMPMovieScalingMode)movieModel frame:(CGRect)frame;
+///初始化，兼容旧版本
+- (instancetype)initWithContentURL:(NSURL *)aUrl movieModel:(MZMPMovieScalingMode)movieModel frame:(CGRect)frame;//兼容旧版本
+- (instancetype)initWithContentURLString:(NSString *)aUrlString movieModel:(MZMPMovieScalingMode)movieModel frame:(CGRect)frame;//兼容旧版本
 
+///初始化，推荐使用此方法
 - (instancetype)initWithContentURL:(NSURL *)aUrl movieModel:(MZMPMovieScalingMode)movieModel frame:(CGRect)frame isLive:(BOOL)isLive;
-///初始化
 - (instancetype)initWithContentURLString:(NSString *)aUrlString movieModel:(MZMPMovieScalingMode)movieModel frame:(CGRect)frame isLive:(BOOL)isLive;
 ///准备播放
 - (void)prepareToPlay;

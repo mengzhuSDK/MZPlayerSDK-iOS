@@ -8,9 +8,13 @@
 		<data>
 		3wRlhQnYpR2WR1hNFP6ETOIntEA=
 		</data>
+		<key>Headers/MZBarrageBgView.h</key>
+		<data>
+		/whf9YajI8FY7/I0qXCsL/6CPbM=
+		</data>
 		<key>Headers/MZBarrageManager.h</key>
 		<data>
-		IlSHugquxyYRx+WWVSDFlOKiNf4=
+		FGEguR30mxxTrlTfzLN+Ho6sfd0=
 		</data>
 		<key>Headers/MZCLUPnPDevice.h</key>
 		<data>
@@ -40,29 +44,49 @@
 		<data>
 		q7fWvfzT0UnozQMqKqCoWe2LHiU=
 		</data>
+		<key>Headers/MZMovieBottonBarView.h</key>
+		<data>
+		mqIT0L7Da0d+8//XbGsibFgR5Ck=
+		</data>
+		<key>Headers/MZMovieCoverPageControl.h</key>
+		<data>
+		1jjXKQ9rgcUMU83cZbpQlOgP05o=
+		</data>
 		<key>Headers/MZMoviePlayerPlaybackRateView.h</key>
 		<data>
 		kJmfWmj83JE7pAcytZXFZ9gTWnI=
 		</data>
 		<key>Headers/MZNewMediaControl.h</key>
 		<data>
-		7ufY0EuA7v40zrxX9MZLUkbF3xE=
+		CTclH8fwMglTSpS+u1t1PCVbIfA=
 		</data>
 		<key>Headers/MZOnlyVerticalMediaControl.h</key>
 		<data>
-		Gn0tc04kGXJxdlBx6AhtyEmW2GU=
+		JgjNqQWIstlijP+8E91pRcE2q+U=
 		</data>
 		<key>Headers/MZPlayerManager.h</key>
 		<data>
-		RZR1OWZYtTeINSIva3lAnWM55yw=
+		dQ2F0Oj5dZWmNojW8jxQIph70AQ=
 		</data>
 		<key>Headers/MZPlayerSDK.h</key>
 		<data>
-		wdg0w61Aqm28zMSyT+hlXE0auc8=
+		Twe+rh8q5oRXHh2bJrYQFm7i+AI=
+		</data>
+		<key>Headers/MZPlayerScrollCoverView.h</key>
+		<data>
+		jUR/3NWL6hF/oUiCCoUznvHI3AM=
 		</data>
 		<key>Headers/MZPreventRecordScreenLabel.h</key>
 		<data>
 		uTPR/gQRJc8hL2WCbEpnAOmD+bs=
+		</data>
+		<key>Headers/MZSlider.h</key>
+		<data>
+		1rKmtU+GkH06p3p+HuqeaKeSTAs=
+		</data>
+		<key>Headers/MZVideoBaseView.h</key>
+		<data>
+		kZW3ssRi2YxyLSEneCq3eTIwiFY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -90,15 +114,26 @@
 			GxmZJXn6SlAWGKPCPhUz892sXQVRCHFSVN2mKDTIBes=
 			</data>
 		</dict>
+		<key>Headers/MZBarrageBgView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/whf9YajI8FY7/I0qXCsL/6CPbM=
+			</data>
+			<key>hash2</key>
+			<data>
+			pHakvU1Kdq5Nv+blaLEpakDDhOAeulVcXh7Edx9ZsGo=
+			</data>
+		</dict>
 		<key>Headers/MZBarrageManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IlSHugquxyYRx+WWVSDFlOKiNf4=
+			FGEguR30mxxTrlTfzLN+Ho6sfd0=
 			</data>
 			<key>hash2</key>
 			<data>
-			6a75cf1hxcGJOXj6HwCXBxJyahGGLz4NkQqQrIy+Gio=
+			cn5MM0aQ1FHRJwI+ADtUzQwoqKuHsf0J4zr7vl3pzkU=
 			</data>
 		</dict>
 		<key>Headers/MZCLUPnPDevice.h</key>
@@ -178,6 +213,28 @@
 			XaxkmvvWV2ghgU47Ol6qhZOMp/QEEc/eNri7g6Ay8EQ=
 			</data>
 		</dict>
+		<key>Headers/MZMovieBottonBarView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mqIT0L7Da0d+8//XbGsibFgR5Ck=
+			</data>
+			<key>hash2</key>
+			<data>
+			xYoFXIX/K5vHWcQ//Q9WgUZjeTAD2DFQUfq+0hI+DaE=
+			</data>
+		</dict>
+		<key>Headers/MZMovieCoverPageControl.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1jjXKQ9rgcUMU83cZbpQlOgP05o=
+			</data>
+			<key>hash2</key>
+			<data>
+			er1csI2ddazgs9ZIy93RFjX9vzWB4AGExO68/QoXYik=
+			</data>
+		</dict>
 		<key>Headers/MZMoviePlayerPlaybackRateView.h</key>
 		<dict>
 			<key>hash</key>
@@ -193,44 +250,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7ufY0EuA7v40zrxX9MZLUkbF3xE=
+			CTclH8fwMglTSpS+u1t1PCVbIfA=
 			</data>
 			<key>hash2</key>
 			<data>
-			z6wxgB+JhWwCtow0K6q8SnIHDSlMfg8RSGd8661GE5w=
+			9SFfkBAXaoep7BYtW9AIYqiT96OelWfREjR26GcUQSw=
 			</data>
 		</dict>
 		<key>Headers/MZOnlyVerticalMediaControl.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Gn0tc04kGXJxdlBx6AhtyEmW2GU=
+			JgjNqQWIstlijP+8E91pRcE2q+U=
 			</data>
 			<key>hash2</key>
 			<data>
-			X/2J6L6Lmafv46Q3vGEo2bW4ezKsosSWcUn/l1dQ3KQ=
+			uaAl0uTFz0aCa+bdxRBxd7/fiwocR7AYTwLeKfqZ4QI=
 			</data>
 		</dict>
 		<key>Headers/MZPlayerManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RZR1OWZYtTeINSIva3lAnWM55yw=
+			dQ2F0Oj5dZWmNojW8jxQIph70AQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ubYLPii1AjAyoifaUOPFv4lOnbibfsMwA7p5LEIcE0U=
+			x9Eq4zzib8TCKOgL/VIWiYh4A8a/+pUfoa0E4k3ggdc=
 			</data>
 		</dict>
 		<key>Headers/MZPlayerSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wdg0w61Aqm28zMSyT+hlXE0auc8=
+			Twe+rh8q5oRXHh2bJrYQFm7i+AI=
 			</data>
 			<key>hash2</key>
 			<data>
-			cACk7bFa2dmkyi3TkasCd87J4so3mzYxwGX3NZJ+uL8=
+			8yYUoHv46mJAEvgO66sY6gThKV0Tha4OeQ8cP7y7PkY=
+			</data>
+		</dict>
+		<key>Headers/MZPlayerScrollCoverView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jUR/3NWL6hF/oUiCCoUznvHI3AM=
+			</data>
+			<key>hash2</key>
+			<data>
+			Rib4MVzfZu4tv4GXDnOgIfh4jM518ADyR0RHSJWXhsw=
 			</data>
 		</dict>
 		<key>Headers/MZPreventRecordScreenLabel.h</key>
@@ -242,6 +310,28 @@
 			<key>hash2</key>
 			<data>
 			IJ0kH6JuBY3z78gwjceE/D0l2kUljCkKwgOf65A8eFs=
+			</data>
+		</dict>
+		<key>Headers/MZSlider.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1rKmtU+GkH06p3p+HuqeaKeSTAs=
+			</data>
+			<key>hash2</key>
+			<data>
+			3FRbq/KgRx/PnrXK/KEBs4n8qKIQNmg6219CRfbUgTw=
+			</data>
+		</dict>
+		<key>Headers/MZVideoBaseView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kZW3ssRi2YxyLSEneCq3eTIwiFY=
+			</data>
+			<key>hash2</key>
+			<data>
+			31TjQf8mwfWLPrQM2udREu1Ob/6tzkQwlGvehyVF3Xo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

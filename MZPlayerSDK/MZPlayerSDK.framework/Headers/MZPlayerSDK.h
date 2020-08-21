@@ -34,11 +34,18 @@
 
 
 #pragma mark - 弹幕句柄
-#import "MZBarrageManager.h"
-
+#import "MZBarrageManager.h"//操作句柄
 
 #pragma mark - 防录屏组件
 #import "MZPreventRecordScreenLabel.h"
+
+#pragma mark - 盟主自己播放器
+#import "MZVideoBaseView.h"
+#import "MZSlider.h"
+#import "MZBarrageBgView.h"
+#import "MZPlayerScrollCoverView.h"
+#import "MZMovieCoverPageControl.h"
+#import "MZMovieBottonBarView.h"
 
 
 //! Project version number for MZPlayerSDK.

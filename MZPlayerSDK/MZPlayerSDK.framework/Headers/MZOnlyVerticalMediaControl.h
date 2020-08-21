@@ -80,11 +80,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIButton  *closeBtn;
 @property (nonatomic, strong) UILabel   *titleLabel;
 
-@property (nonatomic, strong) UIView    *bottomPanel;
-@property (nonatomic, strong) UIButton  *playButton;
-@property (nonatomic, strong) UILabel   *currentTimeLabel;
-@property (nonatomic, strong) UILabel   *totalDurationLabel;
-@property (nonatomic, strong) UISlider  *mediaProgressSlider;
+@property (nonatomic, strong) UIView    *bottomPanel;//底部背景View
+@property (nonatomic, strong) UIButton  *playButton;//播放按钮
+
+@property (nonatomic, strong) UILabel   *timeBackgroungView;//播放总时长和当前时长的背景View
+@property (nonatomic, strong) UILabel   *currentTimeLabel;//当前时间
+@property (nonatomic, strong) UILabel   *totalDurationLabel;//总事件
+@property (nonatomic, strong) UISlider  *mediaProgressSlider;//进度条
 
 @property (nonatomic, strong) UIButton  *hudInfoBtn;
 

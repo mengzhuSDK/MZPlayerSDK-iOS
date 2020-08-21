@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.authors      = "Mengzhu"
   s.name         = "MZPlayerSDK"
-  s.version      = "2.2.0"
+  s.version      = "2.2.2"
   s.summary      = "MZPlayerSDK iOS SDK"
   s.description  = "Provide MZPlayerSDK Server To Play Video Or Live"
   s.homepage     = "http://www.zmengzhu.com"
@@ -14,4 +14,6 @@ Pod::Spec.new do |s|
   s.libraries   =  'xml2'
   s.resource="MZPlayerSDK/MZPlayerSDK.bundle"
   s.dependency 'MZCoreSDKLibrary', '~> 2.2.0'
+  s.dependency 'SDCycleScrollView', '~> 1.75'
+  s.dependency 'MZEmojiLabel', '~> 1.1.3'
   end
