@@ -64,7 +64,7 @@ typedef NS_ENUM(NSInteger, MZMPMovieScalingMode) {
  */
 - (void)moviePlayBackDidFinish:(MZMPMovieFinishReason)type;
 /**
- 是否准备完成
+  已经准备好，开始播放
  */
 - (void)mediaIsPreparedToPlayDidChange;
 /**
@@ -72,7 +72,7 @@ typedef NS_ENUM(NSInteger, MZMPMovieScalingMode) {
  */
 - (void)moviePlayBackStateDidChange:(MZMPMoviePlaybackState)type;
 /**
- 加载第一个画面
+ 加载第一个画面，此方法只在isLive为YES情况下才会回调
  */
 - (void)moviePlayFirstVideoFrameRendered;
 

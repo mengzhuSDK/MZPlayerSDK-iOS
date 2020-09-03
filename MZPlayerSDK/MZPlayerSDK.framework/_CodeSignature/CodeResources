@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/MZPlayerManager.h</key>
 		<data>
-		dQ2F0Oj5dZWmNojW8jxQIph70AQ=
+		ouLodhp4QGmbksLSvzzguUl7Z5E=
 		</data>
 		<key>Headers/MZPlayerSDK.h</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VK7HXdoLKKaQi9tN20qr08M/qyc=
+		Hsxr0QKymqk2FRlWwBBDHyLgWyU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -272,11 +272,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dQ2F0Oj5dZWmNojW8jxQIph70AQ=
+			ouLodhp4QGmbksLSvzzguUl7Z5E=
 			</data>
 			<key>hash2</key>
 			<data>
-			x9Eq4zzib8TCKOgL/VIWiYh4A8a/+pUfoa0E4k3ggdc=
+			8TwA9dgrldAUbbMQxF53WUkzkf+W0pwly+F+KpaPAes=
 			</data>
 		</dict>
 		<key>Headers/MZPlayerSDK.h</key>
