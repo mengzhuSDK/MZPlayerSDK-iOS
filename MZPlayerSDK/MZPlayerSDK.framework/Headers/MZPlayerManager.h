@@ -81,29 +81,29 @@ typedef NS_ENUM(NSInteger, MZMPMovieScalingMode) {
 
 @interface MZPlayerManager : NSObject
 @property (nonatomic,     weak) id<MZPlayerDelegate> delegate;
-@property (nonatomic, readonly) UIView *view;
-@property (nonatomic          ) NSTimeInterval currentPlaybackTime;
-@property (nonatomic, readonly) NSTimeInterval duration;
-@property (nonatomic, readonly) NSTimeInterval playableDuration;
-@property (nonatomic, readonly) NSInteger bufferingProgress;
+@property (nonatomic, readonly) UIView *view;//播放器的View
+@property (nonatomic          ) NSTimeInterval currentPlaybackTime;//当前播放进度
+@property (nonatomic, readonly) NSTimeInterval duration;//总时间
+@property (nonatomic, readonly) NSTimeInterval playableDuration;//缓存的时间
+@property (nonatomic, readonly) NSInteger bufferingProgress;//缓存进度
 
-@property (nonatomic, readonly) BOOL isPreparedToPlay;
-@property (nonatomic, readonly) int64_t numberOfBytesTransferred;
+@property (nonatomic, readonly) BOOL isPreparedToPlay;//是否准备好播放
+@property (nonatomic, readonly) int64_t numberOfBytesTransferred;//传输的字节数
 
-@property (nonatomic, readonly) CGSize naturalSize;
-@property (nonatomic          ) BOOL shouldAutoplay;
+@property (nonatomic, readonly) CGSize naturalSize;//自然大小
+@property (nonatomic          ) BOOL shouldAutoplay;//是否自动播放
 
-@property (nonatomic          ) BOOL allowsMediaAirPlay;
-@property (nonatomic          ) BOOL isDanmakuMediaAirPlay;
-@property (nonatomic, readonly) BOOL airPlayMediaActive;
+@property (nonatomic          ) BOOL allowsMediaAirPlay;//allowsMediaAirPlay
+@property (nonatomic          ) BOOL isDanmakuMediaAirPlay;//isDanmakuMediaAirPlay
+@property (nonatomic, readonly) BOOL airPlayMediaActive;//airPlayMediaActive
 
-@property (nonatomic          ) float playbackRate;
-@property (nonatomic          ) float playbackVolume;
-@property (nonatomic, readonly) CGFloat fpsInMeta;
-@property (nonatomic, readonly) CGFloat fpsAtOutput;
-@property (nonatomic          ) BOOL shouldShowHudView;
-@property (nonatomic, readonly) MZMPMoviePlaybackState playbackState;
-@property (nonatomic, readonly) MZMPMovieLoadState loadState;
+@property (nonatomic          ) float playbackRate;//播放倍速
+@property (nonatomic          ) float playbackVolume;//声音
+@property (nonatomic, readonly) CGFloat fpsInMeta;//fpsInMeta
+@property (nonatomic, readonly) CGFloat fpsAtOutput;//fpsOutput
+@property (nonatomic          ) BOOL shouldShowHudView;//是否展示状态
+@property (nonatomic, readonly) MZMPMoviePlaybackState playbackState;//播放器播放状态
+@property (nonatomic, readonly) MZMPMovieLoadState loadState;//播放器读取状态
 
 ///初始化，兼容旧版本
 - (instancetype)initWithContentURL:(NSURL *)aUrl movieModel:(MZMPMovieScalingMode)movieModel frame:(CGRect)frame;//兼容旧版本

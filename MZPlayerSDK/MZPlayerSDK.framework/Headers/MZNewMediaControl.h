@@ -9,12 +9,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol MZNewMediaControlDelegate <NSObject>
 
-- (void)onClickFullscreen:(BOOL)isFull;
-- (void)onClickMediaControl:(id)sender;
+- (void)onClickFullscreen:(BOOL)isFull;//点击全屏按钮
+- (void)onClickMediaControl:(id)sender;//点击控制栏
 
-- (void)onClickHUD:(id)sender;
-- (void)onClickDone:(id)sender;
-- (void)onClickPlayButton:(id)sender;
+- (void)onClickHUD:(id)sender;//点击指示器
+- (void)onClickDone:(id)sender;//点击完成
+- (void)onClickPlayButton:(id)sender;//点击播放按钮
 - (void)onPlayerLuminance:(float)luminance;//亮度
 - (void)onPlayerVoiceSize:(float)size;//声音
 - (void)onPlayerSeekLocation:(float)location;//快进的手势
@@ -27,13 +27,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MZNewMediaControl : UIView
 
-- (void)showAndFade;
-- (void)hide;
-- (void)refreshMediaControl;
+- (void)showAndFade;//展示或者隐藏
+- (void)hide;//隐藏
+- (void)refreshMediaControl;//刷新控制蓝
 
-- (void)beginDragMediaSlider;
-- (void)endDragMediaSlider;
-- (void)continueDragMediaSlider;
+- (void)beginDragMediaSlider;//开始滑动
+- (void)endDragMediaSlider;//结束滑动
+- (void)continueDragMediaSlider;//继续滑动
 
 -(void)liveHideAndShowView:(BOOL)isLive;//直播回放处理UI
 
