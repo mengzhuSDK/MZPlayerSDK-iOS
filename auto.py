@@ -133,7 +133,7 @@ def gitOperation():
     os.system('git push --tags')
 
 def podPush():
-    print("--------  waiting for pod push  ...... ---------")
+    print("--------  waiting for pod push  ...... ---------" + pod_push_command)
     os.system(pod_push_command)
 
 
